@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head><img class="center" src = "IMG_2906.JPG">
+    <link href="style3-3.css" rel="stylesheet" type="text/css" />
+    <script src = "check.js"></script>
+
+    <title>
+        UAT Login Page
+    </title>
+
+</head>
+<body>
+    
+    <h1>
+        Welcome to the UATSpace login page, please log in.
+    </h1>
+    <p id = "loginStatus">
+        Submitting of the login...
+    
+    </p>
+    <form id = "checkCreds" onsubmit= "return false">
+       First Name:        <input type = "text" id = "firstName" /><br>
+       Last Name:         <input type = "text" id = "lastName" /><br>
+       Badge Number:      <input type = "number" id = "badgeID" /><br>
+       <br>
+       <input type= "submit" onclick = "checkCreds()" />
+    </form>
+        
+</body>
+
+</html>
